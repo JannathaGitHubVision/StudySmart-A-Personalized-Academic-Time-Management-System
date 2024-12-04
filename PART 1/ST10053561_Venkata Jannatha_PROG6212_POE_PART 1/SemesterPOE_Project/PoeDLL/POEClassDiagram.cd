@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PoeDLL.ExceptionHandlingPOE">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAADAAAAQAAAAA=</HashCode>
+      <FileName>ExceptionHandlingPOE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoeDLL.ModulesInfo">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACCEAAABAAAAACAAAAAQAgAAA=</HashCode>
+      <FileName>ModulesInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoeDLL.SelfStudyData">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAIAEAAA=</HashCode>
+      <FileName>SelfStudyData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoeDLL.SemesterDatesWeeks">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAAAE=</HashCode>
+      <FileName>SemesterDatesWeeks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

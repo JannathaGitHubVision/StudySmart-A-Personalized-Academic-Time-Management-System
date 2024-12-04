@@ -1,0 +1,45 @@
+# Student Academic Time Management System
+
+This system has been meticulously developed using **Visual Studio Code** and is composed of two distinct projects: an **ASP.NET Core project** and a **DLL project**. The ASP.NET project leverages the power of the **.NET Framework 6.0**, while the DLL project utilizes the **.NET Framework 4.7.2**.
+
+The values are stored in Local SQL Database which is called **StudentTimeMangementApp** Database and in that database Iam storing the  values of modules and modified values.
+
+The system's structure includes the following directories:
+
+- Areas
+- Controllers
+- Migrations
+- Models
+- Pages
+- Program.cs
+
+## Prerequisites
+
+To ensure smooth operation of the system, the following prerequisites are required:
+- Visual Studio
+
+## System Requirements
+
+For optimal performance, the system recommends the following hardware specifications:
+
+- Operating System: Windows 10 or higher
+- Memory: At least 4GB RAM
+- Disk Space: Minimum of 1GB
+
+This Student Academic Time Management System is designed with a focus on efficiency and user-friendliness, providing a robust solution for students to manage their academic schedules effectively. The use of advanced frameworks ensures a seamless and responsive user experience. The system's professional structure and organization facilitate easy navigation and modification, making it a versatile tool for academic time management.
+
+To execute the program, please adhere to the following instructions:
+
+1. Extract the zip file of “ST10053561_Venkata Jannatha_PROG6212_POE_PART3”.
+2. Open the “StudentTimeManagementApp.sln” file by double clicking or using Visual Studio software on select 'File' at top left corner and choose 'Open' and select 'Project'.
+and locate tot he zip folder that you exract.
+3. Click on the ‘Start’ button (represented by a green arrow) located at the top of the IDE window to launch the application.
+
+References:
+https://www.freecodespot.com/blog/asp-net-core-identity/ : About Creating Regiter and Login in ASP.NET Core
+
+https://learn.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-7.0&tabs=visual-studio : Razor Pages with Entity Framework Core in ASP.NET Core - Tutorial
+
+https://youtu.be/xmuUlkX2DB4?si=XPx9xqtuRzRLdqGO : Asp.Net Core MVC & Identity UI - User Registration and Login
+
+https://learn.microsoft.com/en-us/aspnet/web-pages/overview/data/7-displaying-data-in-a-chart : Displaying Data in a Chart with ASP.NET Web Pages (Razor)

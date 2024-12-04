@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsersInfoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CaptureModules">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModuleCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModuleClassHrs" Type="int" />
+    <Property Name="ModuleCredits" Type="int" />
+    <Property Name="SemWeeks" Type="int" />
+    <Property Name="SemDate" Type="nchar" MaxLength="10" />
+    <Property Name="SelfStudyHour" Type="int" />
+  </EntityType>
+  <EntityType Name="ModifiedHoursTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="WeekNumber" Type="int" Nullable="false" />
+    <Property Name="ModifiedHours" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" />
+    <Property Name="surname" Type="nvarchar(max)" />
+    <Property Name="username" Type="nvarchar(max)" />
+    <Property Name="password" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="Users_CaptureModules">
+    <End Role="users" Type="Self.users" Multiplicity="0..1" />
+    <End Role="CaptureModules" Type="Self.CaptureModules" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CaptureModules">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="UsersInfoModelStoreContainer">
+    <EntitySet Name="CaptureModules" EntityType="Self.CaptureModules" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ModifiedHoursTable" EntityType="Self.ModifiedHoursTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="Users_CaptureModules" Association="Self.Users_CaptureModules">
+      <End Role="users" EntitySet="users" />
+      <End Role="CaptureModules" EntitySet="CaptureModules" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

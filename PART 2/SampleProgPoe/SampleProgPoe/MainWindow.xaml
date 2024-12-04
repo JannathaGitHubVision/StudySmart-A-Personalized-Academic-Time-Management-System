@@ -1,0 +1,61 @@
+﻿<Window x:Class="SampleProgPoe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SampleProgPoe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.462,0.551">
+        <Grid.Background>
+            <ImageBrush ImageSource="/wp7327957-academic-wallpapers.jpg" Stretch="UniformToFill" TileMode="FlipY"/>
+        </Grid.Background>
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Margin" Value="10,10,10,0"/>
+                <Setter Property="Padding" Value="10,20,10,20"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Background" Value="#3498db"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="MinWidth" Value="120"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="4">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#2980b9"/>
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect Color="#000000" Direction="-90" ShadowDepth="2" Opacity=".2"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Content="Student Time and Resource Management System: Empowering Students to  &#xD;&#xA;Optimize Their Academic and Personal Productivity" HorizontalAlignment="Left" Margin="27,29,0,0" VerticalAlignment="Top" Height="65" Width="760" FontSize="20" FontFamily="Segoe UI Semibold" Background="{x:Null}" Foreground="White"/>
+
+        <Button Content="Academic Courseware Organiser" HorizontalAlignment="Left" Margin="255,19,0,0" Grid.Row="1" VerticalAlignment="Top" Height="55" Width="265" Click="NaviagateModule"/>
+        <Button Content="Academic Info Hub" HorizontalAlignment="Left" Margin="275,35,0,0" Grid.Row="2" VerticalAlignment="Top" Height="55" Width="230" Click="CheckingUserInfo"/>
+
+
+    </Grid>
+
+</Window>

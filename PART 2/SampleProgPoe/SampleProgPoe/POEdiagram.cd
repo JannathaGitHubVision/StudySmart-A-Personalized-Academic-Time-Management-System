@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SampleProgPoe.MainWindow">
+    <Position X="5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACBAAAAAAABAAAAAAAAQAAAAACEAAAABCAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SampleProgPoe.Login">
+    <Position X="1.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAEEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Login.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SampleProgPoe.DisplayAcademics_">
+    <Position X="7.5" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAASBAAkAEAAAAAAQAAAAgQCIQQCQCBAAJAASiEMAA=</HashCode>
+      <FileName>DisplayAcademics!.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SampleProgPoe.CaptureModules">
+    <Position X="3.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABgAAAAAAAAAAAAQAAAAAAQAAAIAAAAAkAAAA=</HashCode>
+      <FileName>CaptureModules.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SampleProgPoe.Register">
+    <Position X="0.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Register.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SampleDLL.DisplayData">
+    <Position X="10.75" Y="2.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SampleDLL.ModifiedHoursInfo">
+    <Position X="10.75" Y="6" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SampleDLL.ModulesInfo">
+    <Position X="13.25" Y="3.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SampleDLL.StoringUsersValues">
+    <Position X="15.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SampleProgPoe.DBController">
+    <Position X="18.25" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAIAAQQAAAAAQAAABCAAAAgAAAAEAAEAAA=</HashCode>
+      <FileName>DBController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleProgPoe.ExceptionHandling">
+    <Position X="14.75" Y="8.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAgAAAAAAAAAAADAAAAQAAAAA=</HashCode>
+      <FileName>ExceptionHandling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,473 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\studenttimemangementapp\\models\\modules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\models\\modules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|c:\\users\\vicky\\onedrive - advtech ltd\\varsity college\\second year\\second semester\\prog6212\\poe\\part 3\\studenttimemangementapp\\studenttimemangementapp\\models\\displayvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\models\\displayvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\studenttimemangementapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\studenttimemangementapp\\areas\\identity\\data\\studenttimemangementappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\areas\\identity\\data\\studenttimemangementappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\studenttimemangementapp\\areas\\identity\\data\\registrationloginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\areas\\identity\\data\\registrationloginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\studenttimemangementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\studenttimemangementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\studenttimemangementapp\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\studenttimemangementapp\\pages\\display\\modulestempinfo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F42FF1BD-E7C9-4292-A1FE-4F122722A7E6}|StudentTimeMangementApp\\StudentTimeMangementApp.csproj|solutionrelative:studenttimemangementapp\\pages\\display\\modulestempinfo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 75,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentTimeMangementAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Areas\\Identity\\Data\\StudentTimeMangementAppContext.cs",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\Areas\\Identity\\Data\\StudentTimeMangementAppContext.cs",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Areas\\Identity\\Data\\StudentTimeMangementAppContext.cs",
+              "RelativeToolTip": "StudentTimeMangementApp\\Areas\\Identity\\Data\\StudentTimeMangementAppContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:46:33.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisplayValues.cs",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Models\\DisplayValues.cs",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\Models\\DisplayValues.cs",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Models\\DisplayValues.cs",
+              "RelativeToolTip": "StudentTimeMangementApp\\Models\\DisplayValues.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-15T13:11:45.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StudentTimeMangementApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:22:09.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Modules.cs",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Models\\Modules.cs",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\Models\\Modules.cs",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Models\\Modules.cs",
+              "RelativeToolTip": "StudentTimeMangementApp\\Models\\Modules.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:47:33.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "StudentTimeMangementApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:46:38.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Program.cs",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\Program.cs",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Program.cs",
+              "RelativeToolTip": "StudentTimeMangementApp\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:47:44.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\appsettings.json",
+              "RelativeToolTip": "StudentTimeMangementApp\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T09:18:18.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationLoginUser.cs",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Areas\\Identity\\Data\\RegistrationLoginUser.cs",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\Areas\\Identity\\Data\\RegistrationLoginUser.cs",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Areas\\Identity\\Data\\RegistrationLoginUser.cs",
+              "RelativeToolTip": "StudentTimeMangementApp\\Areas\\Identity\\Data\\RegistrationLoginUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:46:32.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModulesTempInfo.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Pages\\Display\\ModulesTempInfo.cshtml.cs",
+              "RelativeDocumentMoniker": "StudentTimeMangementApp\\Pages\\Display\\ModulesTempInfo.cshtml.cs",
+              "ToolTip": "C:\\Users\\vicky\\OneDrive - ADvTECH Ltd\\Varsity college\\Second Year\\Second Semester\\PROG6212\\POE\\PART 3\\StudentTimeMangementApp\\StudentTimeMangementApp\\Pages\\Display\\ModulesTempInfo.cshtml.cs",
+              "RelativeToolTip": "StudentTimeMangementApp\\Pages\\Display\\ModulesTempInfo.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-15T13:11:40.292Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 104,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

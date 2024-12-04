@@ -1,0 +1,3 @@
+https://wpf-tutorial.com/common-interface-controls/menu-control/ : Menu Items
+
+https://code-maze.com/csharp-hashing-salting-passwords-best-practices/ : hashing password

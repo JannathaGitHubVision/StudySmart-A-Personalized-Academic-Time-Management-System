@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SemesterPOE_Project.OpeningMenu" BaseTypeListCollapsed="true">
+    <Position X="1" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAQA=</HashCode>
+      <FileName>OpeningMenu.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="1.005" Collapsed="true" />
+  </Class>
+  <Class Name="SemesterPOE_Project.SemesterModulesCapture" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>SemesterModulesCapture.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.211" />
+  </Class>
+  <Class Name="SemesterPOE_Project.SemesterDates" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAIAAAAAAAAAAAIAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>SemesterDates.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SemesterPOE_Project.DisplayAcademics">
+    <Position X="14.25" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQQAQAEAAAAACAAAAABAAQAAAAA=</HashCode>
+      <FileName>DisplayAcademics.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PoeDLL.displayData">
+    <Position X="14.75" Y="4.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PoeDLL.ExceptionHandlingPOE">
+    <Position X="8" Y="4.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PoeDLL.ModulesInfo">
+    <Position X="4.5" Y="4.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="PoeDLL.SemesterDatesWeeks">
+    <Position X="11.5" Y="5.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

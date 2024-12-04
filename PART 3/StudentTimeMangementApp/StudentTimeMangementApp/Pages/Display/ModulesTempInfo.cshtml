@@ -1,0 +1,122 @@
+﻿@page
+@model StudentTimeMangementApp.Pages.Display.ModulesTempInfoModel
+@{
+}
+
+@{
+    ViewData["Title"] = "ModulesTempInfo";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <h1 class="text-center mb-4">Update Your Module</h1>
+            <div class="card shadow-lg">
+                <div class="card-body p-5">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-floating mb-3">
+                            <select asp-for="DisplayValues.ModuleName" asp-items="@(new SelectList(Model.Modules, "ModuleName", "ModuleName"))" class="form-control">
+                                <option value="">Select a module...</option>
+                            </select>
+                            <label asp-for="DisplayValues.ModuleName">Module Name</label>
+                            <span asp-validation-for="DisplayValues.ModuleName" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="DisplayValues.UpdateDate" type="date" class="form-control" />
+                            <label asp-for="DisplayValues.UpdateDate">Update Date</label>
+                            <span asp-validation-for="DisplayValues.UpdateDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="DisplayValues.CaptureHrs" class="form-control" />
+                            <label asp-for="DisplayValues.CaptureHrs">Capture Hours</label>
+                            <span asp-validation-for="DisplayValues.CaptureHrs" class="text-danger"></span>
+                        </div>
+                        <button type="submit" name="action" value="update" class="w-100 btn btn-lg btn-primary">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <h1 class="text-center mb-4">Module Progress</h1>
+            <div class="card shadow-lg">
+                <div class="card-body p-5">
+                    <div>
+                        <canvas id="myChart" style="max-width:100%; max-height:900px"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const modules = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Modules));
+    var updatedModulesData = @Html.Raw(Json.Serialize(Model.DisplayValues));
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const colors = [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)'
+    ];
+    const borderColors = [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+    ];
+
+    const chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: Array.from({ length: Math.max(...modules.map(m => m.Weeks)) }, (_, i) => 'Week ' + (i + 1)),
+            datasets: modules.map((m, index) => {
+                var data = Array.from({ length: m.Weeks }, _ => m.SelfStudyHr);
+                return {
+                    label: m.ModuleName,
+                    data: data,
+                    backgroundColor: colors[index % colors.length],
+                    borderColor: borderColors[index % borderColors.length],
+                    borderWidth: 1
+                };
+            })
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    document.getElementById('showUpdatedGraph').addEventListener('click', function () {
+        // Find the dataset corresponding to the updated module
+        const updatedDatasetIndex = modules.findIndex(m => m.ModuleName === updatedModulesData.ModuleName);
+
+        if (updatedDatasetIndex !== -1) {
+            // Update only the data for the specific week
+            const weekIndex = updatedModulesData.WeekNumber - 1; // Adjusting for zero-based index
+
+            console.log("Updated Module Data:", updatedModulesData);
+            console.log("Updated Dataset Index:", updatedDatasetIndex);
+            console.log("Week Index:", weekIndex);
+
+            if (weekIndex >= 0 && weekIndex < chart.data.datasets[updatedDatasetIndex].data.length) {
+                chart.data.datasets[updatedDatasetIndex].data[weekIndex] = updatedModulesData.UpdatedSelfStudyHr;
+                chart.update();
+            } else {
+                console.error("Invalid week index or dataset structure.");
+            }
+        }
+    });
+</script>
+

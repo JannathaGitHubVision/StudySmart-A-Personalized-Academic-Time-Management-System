@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Student Time Management</h1>
+    <p class="lead">Master your time, master your life.</p>
+    <hr class="my-4">
+    <p>Time management is an essential skill for students. It helps you prioritize your work, get things done on time, and reduce stress. Our application is designed to help you manage your time effectively.</p>
+    <p>Ready to get started? Create your first module now!</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Modules</h2>
+        <p>Embark on your academic journey with our module management system. Each module carries a specific credit weight, dictating the hours you need to dedicate. Remember, every credit requires certain hours of commitment throughout the semester.</p>
+        <p><a class="btn btn-primary" asp-page="/Module/CreateModule">Start Capturing Modules »</a></p>
+    </div>
+    <div class="col-md-6">
+        <h2>Display</h2>
+        <p>Stay informed and in control with our module display feature. It provides a comprehensive view of your module information and time management plan. Keep an eye on your progress and make adjustments as you go.</p>
+        <p><a class="btn btn-primary" asp-page="/Display/ModulesTempInfo">Explore Your Dashboard »</a></p>
+    </div>
+</div>
+
+
+

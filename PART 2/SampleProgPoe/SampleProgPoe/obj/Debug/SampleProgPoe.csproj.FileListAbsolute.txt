@@ -1,0 +1,58 @@
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.csproj.AssemblyReference.cache
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\Styles\UIColors.baml
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\CaptureModules.g.cs
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\DisplayAcademics!.g.cs
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\Login.g.cs
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\MainWindow.g.cs
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\Register.g.cs
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\App.g.cs
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe_Content.g.cs
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe_MarkupCompile.cache
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe_MarkupCompile.lref
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\App.baml
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\CaptureModules.baml
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\DisplayAcademics!.baml
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\Login.baml
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\MainWindow.baml
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\Register.baml
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.g.resources
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.pdb
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\bin\Debug\bin\Debug\UsersInfo2.mdf
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\bin\Debug\bin\Debug\UsersInfo2_log.ldf
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\bin\Debug\SampleProgPoe.exe.config
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\bin\Debug\SampleProgPoe.exe
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\bin\Debug\SampleProgPoe.pdb
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.Properties.Resources.resources
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.csproj.GenerateResource.cache
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.csproj.CoreCompileInputs.cache
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.csproj.CopyComplete
+C:\Users\vicky\source\repos\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.exe
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\bin\Debug\bin\Debug\UsersInfo2.mdf
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\bin\Debug\bin\Debug\UsersInfo2_log.ldf
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\bin\Debug\SampleProgPoe.exe.config
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\bin\Debug\SampleProgPoe.exe
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\bin\Debug\SampleProgPoe.pdb
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.csproj.AssemblyReference.cache
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\Styles\UIColors.baml
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\CaptureModules.g.cs
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\DisplayAcademics!.g.cs
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\Login.g.cs
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\MainWindow.g.cs
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\Register.g.cs
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\App.g.cs
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe_Content.g.cs
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe_MarkupCompile.cache
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe_MarkupCompile.lref
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\App.baml
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\CaptureModules.baml
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\DisplayAcademics!.baml
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\Login.baml
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\MainWindow.baml
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\Register.baml
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.g.resources
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.Properties.Resources.resources
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.csproj.GenerateResource.cache
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.csproj.CoreCompileInputs.cache
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.csproj.CopyComplete
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.exe
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 2\SampleProgPoe\SampleProgPoe\obj\Debug\SampleProgPoe.pdb

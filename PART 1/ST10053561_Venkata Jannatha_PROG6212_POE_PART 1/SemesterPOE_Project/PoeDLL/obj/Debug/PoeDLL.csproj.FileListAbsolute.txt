@@ -1,0 +1,6 @@
+C:\Users\vicky\source\repos\SemesterPOE_Project\PoeDLL\bin\Debug\PoeDLL.dll
+C:\Users\vicky\source\repos\SemesterPOE_Project\PoeDLL\bin\Debug\PoeDLL.pdb
+C:\Users\vicky\source\repos\SemesterPOE_Project\PoeDLL\obj\Debug\PoeDLL.csproj.AssemblyReference.cache
+C:\Users\vicky\source\repos\SemesterPOE_Project\PoeDLL\obj\Debug\PoeDLL.csproj.CoreCompileInputs.cache
+C:\Users\vicky\source\repos\SemesterPOE_Project\PoeDLL\obj\Debug\PoeDLL.dll
+C:\Users\vicky\source\repos\SemesterPOE_Project\PoeDLL\obj\Debug\PoeDLL.pdb

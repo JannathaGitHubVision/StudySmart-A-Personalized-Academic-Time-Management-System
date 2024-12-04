@@ -1,0 +1,10 @@
+﻿<Application x:Class="SampleProgPoe.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SampleProgPoe"
+             StartupUri="Login.xaml" >
+    <Application.Resources>
+
+        <ResourceDictionary Source="/Styles/UIColors.xaml"/>
+    </Application.Resources>
+</Application>

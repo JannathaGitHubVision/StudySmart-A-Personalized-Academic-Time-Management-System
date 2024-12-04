@@ -1,0 +1,93 @@
+﻿<Window x:Class="SemesterPOE_Project.SemesterDates"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SemesterPOE_Project"
+        mc:Ignorable="d"
+        Title="SemesterDates" Height="385" Width="525">
+    <Grid Margin="0,0,5,9">
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#FF3498DB"/>
+                <GradientStop Color="#FFFFFBFB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.Resources>
+            <Style TargetType="TextBox">
+                <Setter Property="Margin" Value="10,5,10,5"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="BorderBrush" Value="#CCCCCC"/>
+                <Setter Property="Background" Value="#F5F5F5"/>
+                <Setter Property="MinWidth" Value="120"/>
+                <Setter Property="Effect">
+                    <Setter.Value>
+                        <DropShadowEffect Color="Black" Direction="320" ShadowDepth="3" Opacity="0.5"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Margin" Value="10,10,10,0"/>
+                <Setter Property="Padding" Value="10,20,10,20"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Background" Value="#3498db"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="MinWidth" Value="120"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="4">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#2980b9"/>
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect Color="#000000" Direction="-90" ShadowDepth="2" Opacity=".2"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <Label Content="Semester Weeks &amp; Date"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0" FontSize="36" FontFamily="Segoe UI Variable Display Semibold" Cursor="AppStarting" Grid.ColumnSpan="2"/>
+
+        <!-- Number of Weeks -->
+        <Label Content="Number of Weeks" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Row="1" Width="250"/>
+        <TextBox x:Name="WeeksNumText" HorizontalAlignment="Center" VerticalAlignment="Center" Width="230" Height="65" FontSize="24" Grid.Row="1" Grid.Column="1"/>
+
+        <!-- Start Date of Semester -->
+        <Label Content="Start Date of &#xD;&#xA;Semester" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="30" Grid.Row="2" Grid.Column="0" Margin="10,0,0,0" Height="86" Width="230"/>
+
+        <!-- Submit Button -->
+        <Button Content= "Submit " HorizontalAlignment= "Left" Width= "160" Click= "SemesterSubmitButton " Grid.Row= "3 " Height= "45" FontSize= "24 " Margin="205,24,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <DatePicker x:Name="DateText" Grid.Column="1" HorizontalAlignment="Left" Margin="25,28,0,0" Grid.Row="2" VerticalAlignment="Top" Width="225" Height="39" DisplayDate="2023-09-18" FontSize="16"/>
+        <Button Content="Capture More" Grid.Row="3" Height="50" Margin="40,19,85,0" VerticalAlignment="Top" Click="BackToModule"/>
+        <Button x:Name="NavigateToDisplay" Grid.Column="1" Content="DisplayValues" HorizontalAlignment="Left" Margin="130,0,0,0" Grid.Row="3" Height="42" Click="NavigateToDisplay_Click"/>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,12 @@
+C:\Users\vicky\source\repos\StudentTimeMangementApp\WebDLL\bin\Debug\WebDLL.dll
+C:\Users\vicky\source\repos\StudentTimeMangementApp\WebDLL\bin\Debug\WebDLL.pdb
+C:\Users\vicky\source\repos\StudentTimeMangementApp\WebDLL\obj\Debug\WebDLL.csproj.AssemblyReference.cache
+C:\Users\vicky\source\repos\StudentTimeMangementApp\WebDLL\obj\Debug\WebDLL.csproj.CoreCompileInputs.cache
+C:\Users\vicky\source\repos\StudentTimeMangementApp\WebDLL\obj\Debug\WebDLL.dll
+C:\Users\vicky\source\repos\StudentTimeMangementApp\WebDLL\obj\Debug\WebDLL.pdb
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 3\StudentTimeMangementApp\WebDLL\bin\Debug\WebDLL.dll
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 3\StudentTimeMangementApp\WebDLL\bin\Debug\WebDLL.pdb
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 3\StudentTimeMangementApp\WebDLL\obj\Debug\WebDLL.csproj.AssemblyReference.cache
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 3\StudentTimeMangementApp\WebDLL\obj\Debug\WebDLL.csproj.CoreCompileInputs.cache
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 3\StudentTimeMangementApp\WebDLL\obj\Debug\WebDLL.dll
+C:\Users\vicky\OneDrive - ADvTECH Ltd\Varsity college\Second Year\Second Semester\PROG6212\POE\PART 3\StudentTimeMangementApp\WebDLL\obj\Debug\WebDLL.pdb

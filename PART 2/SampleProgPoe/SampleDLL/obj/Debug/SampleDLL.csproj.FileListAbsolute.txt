@@ -1,0 +1,6 @@
+C:\Users\vicky\source\repos\SampleProgPoe\SampleDLL\bin\Debug\SampleDLL.dll
+C:\Users\vicky\source\repos\SampleProgPoe\SampleDLL\bin\Debug\SampleDLL.pdb
+C:\Users\vicky\source\repos\SampleProgPoe\SampleDLL\obj\Debug\SampleDLL.csproj.AssemblyReference.cache
+C:\Users\vicky\source\repos\SampleProgPoe\SampleDLL\obj\Debug\SampleDLL.csproj.CoreCompileInputs.cache
+C:\Users\vicky\source\repos\SampleProgPoe\SampleDLL\obj\Debug\SampleDLL.dll
+C:\Users\vicky\source\repos\SampleProgPoe\SampleDLL\obj\Debug\SampleDLL.pdb

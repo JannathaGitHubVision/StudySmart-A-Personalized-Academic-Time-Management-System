@@ -1,0 +1,84 @@
+﻿@page
+@model StudentTimeMangementApp.Pages.Module.CreateModuleModel
+
+@{
+    ViewData["Title"] = "CreateModule";
+}
+
+<div class="container py-5">
+    <h1 class="text-center mb-4">Create a New Module</h1>
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card shadow-lg">
+                <div class="card-body p-5">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Modules.ModuleName" class="form-control" />
+                            <label asp-for="Modules.ModuleName">Module Name</label>
+                            <span asp-validation-for="Modules.ModuleName" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Modules.ModuleCode" class="form-control" />
+                            <label asp-for="Modules.ModuleCode" class="control-label">Module Code</label>
+                            <span asp-validation-for="Modules.ModuleCode" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Modules.ModuleCredits" class="form-control" />
+                            <label asp-for="Modules.ModuleCredits" class="control-label">Module Credits</label>
+                            <span asp-validation-for="Modules.ModuleCredits" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Modules.ModuleClassHrs" class="form-control" />
+                            <label asp-for="Modules.ModuleClassHrs" class="control-label">Module Class Hours</label>
+                            <span asp-validation-for="Modules.ModuleClassHrs" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Modules.Weeks" class="form-control" />
+                            <label asp-for="Modules.Weeks" class="control-label">Module Weeks</label>
+                            <span asp-validation-for="Modules.Weeks" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Modules.Date" type="date" class="form-control" />
+                            <label asp-for="Modules.Date" class="control-label">Module Date</label>
+                            <span asp-validation-for="Modules.Date" class="text-danger"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" name="action" value="Save and Finish" class="w-100 btn btn-lg btn-primary rounded-pill">Save and Finish</button>
+                            </div>
+                            <div class="col">
+                                <button type="submit" name="action" value="Add More" class="w-100 btn btn-lg btn-primary rounded-pill">Add More</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function clearForm() {
+        var inputs = document.getElementsByTagName('input');
+        for (var i = 0; i < inputs.length; i++) {
+            switch (inputs[i].type) {
+                // case 'hidden':
+                case 'text':
+                    inputs[i].value = '';
+                    break;
+                case 'radio':
+                case 'checkbox':
+                    inputs[i].checked = false;
+            }
+        }
+    }
+</script>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

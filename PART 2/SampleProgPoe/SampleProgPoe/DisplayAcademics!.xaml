@@ -1,0 +1,108 @@
+﻿<Window x:Class="SampleProgPoe.DisplayAcademics_"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SampleProgPoe"
+        mc:Ignorable="d"
+        Title="DisplayAcademics_" Height="500" Width="655"  Background="#FFB4E2E1" >
+
+    <DockPanel Background="#FFB4E2E1">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Menu" Click="BackToMenu">
+                <MenuItem.Icon>
+                    <Image Source="Icons/Menu.ico"/>
+                </MenuItem.Icon>
+
+            </MenuItem>
+            <MenuItem Header="_CaptureValues" Click="BackToCapture">
+                <MenuItem.Icon>
+                    <Image Source="Icons/capture-modules.ico"/>
+                </MenuItem.Icon>
+            </MenuItem>
+
+        </Menu>
+        <Grid Width="621" Margin="4,75,4,4">
+            <Grid.Resources>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Margin" Value="10,10,0,0"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="Foreground" Value="#333333"/>
+                    <Setter Property="FontSize" Value="16"/>
+                </Style>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Margin" Value="10,5,10,5"/>
+                    <Setter Property="Padding" Value="5"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                    <Setter Property="BorderBrush" Value="#CCCCCC"/>
+                    <Setter Property="Background" Value="#F5F5F5"/>
+                    <Setter Property="MinWidth" Value="120"/>
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect Color="Black" Direction="320" ShadowDepth="3" Opacity="0.5"/>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Margin" Value="10,10,10,0"/>
+                    <Setter Property="Padding" Value="10,20,10,20"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="Background" Value="#3498db"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="MinWidth" Value="120"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="4">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#2980b9"/>
+                                        <Setter Property="Effect">
+                                            <Setter.Value>
+                                                <DropShadowEffect Color="#000000" Direction="-90" ShadowDepth="2" Opacity=".2"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Grid.Resources>
+            <Grid.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FF3498DB"/>
+                    <GradientStop Color="#FFFBFFFF" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBox x:Name="displayTextbox" HorizontalAlignment="Left" Margin="393,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" Height="175" RenderTransformOrigin="0.5,0.5" FontSize="14">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.388"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.66"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Label Content="Select Module" HorizontalAlignment="Left" Margin="30,19,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+            <Label Content="Capture Hours" HorizontalAlignment="Left" Margin="30,114,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+            <TextBox x:Name="CaptureValuesText" HorizontalAlignment="Left" Margin="180,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" Height="31" FontSize="14" IsEnabled="False" />
+            <Button Content="Submit" HorizontalAlignment="Left" Margin="202,161,0,0" VerticalAlignment="Top" Height="31" Click="SubmitButton"/>
+            <DataGrid x:Name="GridViewData" Margin="5,212,7,8"/>
+            <Label Content="Select Date" HorizontalAlignment="Left" Margin="30,65,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+            <DatePicker x:Name="ModuleDatePicker" HorizontalAlignment="Left" Margin="162,66,0,0" VerticalAlignment="Top" Width="223" DisplayDate="2023-05-25" Height="34" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Padding="0,2,0,2" IsEnabled="False" SelectedDateChanged="ModuleDatePicker_SelectedDateChanged" FontSize="16"/>
+            <Label Content="Display Module Academics" HorizontalAlignment="Left" Margin="53,-69,0,0" VerticalAlignment="Top" Width="485" FontSize="36" FontWeight="Bold" Height="55"/>
+            <ComboBox x:Name="ModuleComboBox" HorizontalAlignment="Left" Margin="198,25,0,0" VerticalAlignment="Top" Width="160" Height="25" SelectionChanged="ModuleComboBox_SelectionChanged">
+            </ComboBox>
+
+        </Grid>
+    </DockPanel>
+</Window>

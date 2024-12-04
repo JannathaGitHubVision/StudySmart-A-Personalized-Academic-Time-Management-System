@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UsersInfoModelStoreContainer" CdmEntityContainer="UsersInfoEntities">
+    <EntitySetMapping Name="CaptureModules">
+      <EntityTypeMapping TypeName="UsersInfoModel.CaptureModule">
+        <MappingFragment StoreEntitySet="CaptureModules">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+          <ScalarProperty Name="ModuleCode" ColumnName="ModuleCode" />
+          <ScalarProperty Name="ModuleClassHrs" ColumnName="ModuleClassHrs" />
+          <ScalarProperty Name="ModuleCredits" ColumnName="ModuleCredits" />
+          <ScalarProperty Name="SemWeeks" ColumnName="SemWeeks" />
+          <ScalarProperty Name="SemDate" ColumnName="SemDate" />
+          <ScalarProperty Name="SelfStudyHour" ColumnName="SelfStudyHour" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ModifiedHoursTables">
+      <EntityTypeMapping TypeName="UsersInfoModel.ModifiedHoursTable">
+        <MappingFragment StoreEntitySet="ModifiedHoursTable">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+          <ScalarProperty Name="WeekNumber" ColumnName="WeekNumber" />
+          <ScalarProperty Name="ModifiedHours" ColumnName="ModifiedHours" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="UsersInfoModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

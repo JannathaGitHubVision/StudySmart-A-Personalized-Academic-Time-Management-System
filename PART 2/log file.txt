@@ -1,0 +1,12 @@
+These are the changes I made for the part 2:
+
+1: I improve weekly display for all the semester. so based on semester weeks Iam displaying based on the module they chose.
+
+2: I remove the combo box, which it resolve the error, so Include the select combo box module and date and capture hours to update 
+the self study hours in a week
+
+3: I also include the option to go to the display class
+
+4: Include the .NET framework for both projects which are 'WPF and DLL' and I also update the readme file based on part 2
+.
+
